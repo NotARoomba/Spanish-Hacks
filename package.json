@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "start": "nodemon ."
+  },
+  "dependencies": {
+    "nodemon": "^3.0.1",
+    "prettier": "^3.0.2",
+    "rae-api": "^1.5.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  }
+}
