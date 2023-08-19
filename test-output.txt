@@ -1,0 +1,9 @@
+Word: hola
+Definition: U. como salutación familiar.
+Synonyms: saludo, buendía, hey, quétal, sup
+Antonyms: mal, triste, enojado, disgustado, odioso
+
+Word: tiempo
+Definition: Duración de las cosas sujetas a mudanza.
+Synonyms: fluctuación, duración, lapso, período, término
+Antonyms: constante, inmutable, estático, permanente, fijo

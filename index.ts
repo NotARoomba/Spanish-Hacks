@@ -3,7 +3,7 @@ import { ChatGPTUnofficialProxyAPI } from 'chatgpt'
 import { load } from 'ts-dotenv';
 import chalk from 'chalk';
 import inquirer from "inquirer";
-import { isNonNullChain } from "typescript";
+import * as fs from 'node:fs/promises';
 const env = load({
     OPENAI: String,
 });
@@ -17,13 +17,29 @@ interface WordDefinition {
     antonyms: Array<String>;
 }
 
-const getWordDefinition = async (word: string) => {
-    const id = (await rae.searchWord(word)).results[0].id;
-    let definition;
-    (await rae.fetchWord(id)).definitions.map((v, i) => {
-        //TODO: get a selection to determine which definition the user is looking for
-        if (i == 0) definition = v.content;
-    })
+const getWordDefinition = async (word: string): Promise<WordDefinition | undefined> => {
+    const listOfWords = (await rae.searchWord(word))
+    if (listOfWords.results.length == 0) {
+        console.log(chalk.red("No words found!"))
+        return undefined
+    }
+    const id = listOfWords.results.length == 1 ? listOfWords.results[0].id : (await inquirer.prompt({
+        type: 'rawlist',
+        name: 'id',
+        message: 'Select 1: ',
+        choices: listOfWords.results.map((v) => {
+            return {name: v.header, value: v.id}
+        })
+      })).id
+    const listOfDefinitions = (await rae.fetchWord(id)).definitions;
+    const definition = listOfDefinitions.length == 1 ? listOfDefinitions[0].content : (await inquirer.prompt({
+        type: 'rawlist',
+        name: 'definition',
+        message: 'Multiple definitions found, choose the one that best fits: ',
+        choices: listOfDefinitions.map((v) => {
+            return {name: v.content}
+        })
+      })).definition
     const api = new ChatGPTUnofficialProxyAPI({
         accessToken: env.OPENAI,
         apiReverseProxyUrl: "https://ai.fakeopen.com/api/conversation"
@@ -39,7 +55,7 @@ const getWordDefinition = async (word: string) => {
 (async () => {
     //TODO: Input from a file and output to a file or simple cli based on what the user wants
     console.log(chalk.bold.cyan("Welcome to a hack-y ") + chalk.bold.redBright("RAE") + chalk.bold.cyan(" scraper!"))
-    const filePrompt = await inquirer.prompt({
+    const todo = (await inquirer.prompt({
         type: 'rawlist',
         name: 'inputType',
         message: 'Do you want to read from a file or enter words manually?',
@@ -49,12 +65,15 @@ const getWordDefinition = async (word: string) => {
         },
         {
             name: 'File (Expert Mode)'
+        }, 
+        {
+            name: 'Exit'
         }]
-      })
-    if (filePrompt.inputType === 'Manually') {
+      })).inputType
+    if (todo === 'Manually') {
         let done = false;
         while (!done) {
-            const todoPrompt = await inquirer.prompt({
+            const todo = (await inquirer.prompt({
                 type: 'rawlist',
                 name: 'isDone',
                 message: 'Do you want to search for a word or exit?',
@@ -65,26 +84,68 @@ const getWordDefinition = async (word: string) => {
                 {
                     name: 'Exit'
                 }]
-              })
-              if (todoPrompt.isDone === 'Search for a word') {
-                const wordPrompt = await inquirer.prompt({
+              })).isDone
+              if (todo === 'Search for a word') {
+                const word = (await inquirer.prompt({
                     type: 'input',
                     name: 'word',
                     message: 'What is the word?',
                     validate: (input: String) => {
                         return input.length != 0
                     }
-                  })
-                  console.log(wordPrompt.word)
+                  })).word
+                  const wordDefinition = await getWordDefinition(word);
+                  if (!wordDefinition) continue;
+                  console.log(chalk.cyan("Word: ") + chalk.white(wordDefinition.word))
+                  console.log(chalk.blue("Definition: ") + chalk.white(wordDefinition.definition))
+                  console.log(chalk.green("Synonyms: ") + chalk.white(wordDefinition.synonyms.join(", ")))
+                  console.log(chalk.red("Antonyms: ") + chalk.white(wordDefinition.antonyms.join(", ")))
               } else {
                 done = true;
               }
         }
+    } else if (todo === 'File (Expert Mode)') {
+        const filePath = (await inquirer.prompt({
+            type: 'input',
+            name: 'file',
+            message: 'Where is the file (Relative or Absolute): ',
+            validate: (input: String) => {
+                return input.length != 0
+            }
+          })).file
+          let file = null;
+          try {
+            file = await fs.readFile(filePath, { encoding: 'utf-8'})
+          } catch {
+            console.log(chalk.red('Error reading from file!'))
+          }
+          if (!file) return;
+          file = file.split(/\n/g)
+          let wordArr = []
+          console.log(file)
+          for (let word of file) {
+            console.log(word)
+            const wordDefinition = await getWordDefinition(word);
+            if (!wordDefinition) {
+                console.log(chalk.red('Error getting word definition for: ') + chalk.white(word))
+                continue
+            };
+            wordArr.push(wordDefinition)
+          }
+          const fname: String = (await inquirer.prompt({
+              type: 'input',
+              name: 'fileName',
+              message: 'Choose a name for the file to save the definitions: ',
+              validate: (input: String) => {
+                  return input.length != 0
+              }
+            })).fileName
+
+            await fs.writeFile('./' + fname + '.txt', wordArr.map((v) => {
+              return `Word: ${v.word}\nDefinition: ${v.definition}\nSynonyms: ${v.synonyms.join(', ')}\nAntonyms: ${v.antonyms.join(', ')}`
+            }).join('\n\n'));
+            console.log(chalk.green('Saved definitions to file: ') + chalk.white(fname) + '.txt')
+
     }
     return console.log(chalk.cyan("Bye!"))
-    const word = "medieval"
-    console.log(`La palabra es : ${word}`);
-    
-    const wordData = await getWordDefinition(word);
-    console.log(wordData)
 })()
