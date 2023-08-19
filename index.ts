@@ -20,7 +20,7 @@ interface WordDefinition {
 const getWordDefinition = async (word: string): Promise<WordDefinition | undefined> => {
     const listOfWords = (await rae.searchWord(word))
     if (listOfWords.results.length == 0) {
-        console.log(chalk.red("No words found!"))
+        console.log(chalk.redBright("No words found!"))
         return undefined
     }
     const id = listOfWords.results.length == 1 ? listOfWords.results[0].id : (await inquirer.prompt({
@@ -45,7 +45,7 @@ const getWordDefinition = async (word: string): Promise<WordDefinition | undefin
         apiReverseProxyUrl: "https://ai.fakeopen.com/api/conversation"
     })
     let sya = (await api.sendMessage(`pretend you are an api, given the word ${word} and its definition "${definition}" give me 5 synonyms and 5 antonyms, in spanish, only send the synonyms and antonyms seperated by commas and no other text or styling, an example response would be "fine,good,well,happy,smiling,bad,horrible,disgusted,sick,horrid"`)).text;
-    sya = sya.toLocaleLowerCase().replace(/\s/g, "").replace("synonyms:", "").replace("antonyms:", "").replace(/\./g, ",")
+    sya = sya.toLocaleLowerCase().replace(/\s/g, "").replace("synonyms:", "").replace("antonyms:", "").replace(/\./g, ",").replace("sinónimos:", "").replace("antónimos:", "")
     const synonyms = sya.split(",").splice(0, 5)
     const antonyms = sya.split(",").splice(5, 10)
     return {word, definition, synonyms, antonyms};
@@ -54,7 +54,9 @@ const getWordDefinition = async (word: string): Promise<WordDefinition | undefin
 
 (async () => {
     //TODO: Input from a file and output to a file or simple cli based on what the user wants
-    console.log(chalk.bold.cyan("Welcome to a hack-y ") + chalk.bold.redBright("RAE") + chalk.bold.cyan(" scraper!"))
+    console.log(chalk.bold.cyanBright("Welcome to a hack-y ") + chalk.bold.redBright("RAE") + chalk.bold.cyanBright(" scraper!"))
+    console.log(chalk.bold.cyanBright("Made By ") + chalk.bold.greenBright("NotARoomba (Nathan)") + chalk.bold.cyanBright(" and ") + chalk.bold.greenBright("Awangran (Ashlee)"))
+
     const todo = (await inquirer.prompt({
         type: 'rawlist',
         name: 'inputType',
@@ -96,10 +98,10 @@ const getWordDefinition = async (word: string): Promise<WordDefinition | undefin
                   })).word
                   const wordDefinition = await getWordDefinition(word);
                   if (!wordDefinition) continue;
-                  console.log(chalk.cyan("Word: ") + chalk.white(wordDefinition.word))
+                  console.log(chalk.cyanBright("Word: ") + chalk.white(wordDefinition.word))
                   console.log(chalk.blue("Definition: ") + chalk.white(wordDefinition.definition))
                   console.log(chalk.green("Synonyms: ") + chalk.white(wordDefinition.synonyms.join(", ")))
-                  console.log(chalk.red("Antonyms: ") + chalk.white(wordDefinition.antonyms.join(", ")))
+                  console.log(chalk.redBright("Antonyms: ") + chalk.white(wordDefinition.antonyms.join(", ")))
               } else {
                 done = true;
               }
@@ -117,17 +119,16 @@ const getWordDefinition = async (word: string): Promise<WordDefinition | undefin
           try {
             file = await fs.readFile(filePath, { encoding: 'utf-8'})
           } catch {
-            console.log(chalk.red('Error reading from file!'))
+            console.log(chalk.redBright('Error reading from file!'))
           }
           if (!file) return;
           file = file.split(/\n/g)
           let wordArr = []
-          console.log(file)
           for (let word of file) {
-            console.log(word)
+            console.log(chalk.green('Getting definition for word: ') + chalk.white(word))
             const wordDefinition = await getWordDefinition(word);
             if (!wordDefinition) {
-                console.log(chalk.red('Error getting word definition for: ') + chalk.white(word))
+                console.log(chalk.redBright('Error getting word definition for: ') + chalk.white(word))
                 continue
             };
             wordArr.push(wordDefinition)
@@ -147,5 +148,5 @@ const getWordDefinition = async (word: string): Promise<WordDefinition | undefin
             console.log(chalk.green('Saved definitions to file: ') + chalk.white(fname) + '.txt')
 
     }
-    return console.log(chalk.cyan("Bye!"))
+    return console.log(chalk.cyanBright("Bye!"))
 })()

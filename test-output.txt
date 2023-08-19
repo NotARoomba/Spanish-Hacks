@@ -1,9 +1,9 @@
 Word: hola
-Definition: U. como salutación familiar.
-Synonyms: saludo, buendía, hey, quétal, sup
-Antonyms: mal, triste, enojado, disgustado, odioso
+Definition: poco us. U. para denotar extrañeza, placentera o desagradable. U. también repetida.
+Synonyms: alegría, asombro, sorpresa, admiración, desconcierto
+Antonyms: normalidad, costumbre, rutina, común, frecuente
 
 Word: tiempo
-Definition: Duración de las cosas sujetas a mudanza.
-Synonyms: fluctuación, duración, lapso, período, término
-Antonyms: constante, inmutable, estático, permanente, fijo
+Definition: Magnitud física que permite ordenar la secuencia de los sucesos, estableciendo un pasado, un presente y un futuro, y cuya unidad en el sistema internacional es el segundo.
+Synonyms: pasado, cronología, duración, edad, sucesión
+Antonyms: atraso, retroceso, detención, inmovilidad, estancamiento

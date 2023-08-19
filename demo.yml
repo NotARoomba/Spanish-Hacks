@@ -1,0 +1,389 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /home/roomba/GitHub/Spanish-Hacks
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 100
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 17
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 10
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#fc4c4c"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b3f0fc"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 794
+    content: "\e]0;roomba@archlinux:~/GitHub/Spanish-Hacks\a\e[?2004h[roomba@archlinux Spanish-Hacks]$ "
+  - delay: 2758
+    content: 'n'
+  - delay: 589
+    content: p
+  - delay: 111
+    content: x
+  - delay: 203
+    content: ' '
+  - delay: 444
+    content: t
+  - delay: 296
+    content: s
+  - delay: 135
+    content: x
+  - delay: 531
+    content: ' '
+  - delay: 627
+    content: .
+  - delay: 77
+    content: /
+  - delay: 257
+    content: i
+  - delay: 123
+    content: 'n'
+  - delay: 293
+    content: d
+  - delay: 132
+    content: e
+  - delay: 160
+    content: x
+  - delay: 139
+    content: .
+  - delay: 344
+    content: t
+  - delay: 62
+    content: s
+  - delay: 172
+    content: "\r\n\e[?2004l\r"
+  - delay: 3139
+    content: "\e[1m\e[36mWelcome to a hack-y \e[39m\e[22m\e[1m\e[91mRAE\e[39m\e[22m\e[1m\e[36m scraper!\e[39m\e[22m\r\n\e[1m\e[36mMade By \e[39m\e[22m\e[1m\e[92mNotARoomba (Nathan)\e[39m\e[22m\e[1m\e[36m and \e[39m\e[22m\e[1m\e[92mAwangran (Ashlee)\e[39m\e[22m\r\n"
+  - delay: 26
+    content: "\e[32m?\e[39m \e[1mDo you want to read from a file or enter words manually?\e[22m\e[0m \e[0m\r\n  \e[36m1) Manually\e[39m\r\n  2) File (Expert Mode)\r\n  3) Exit\r\n  Answer: \e[10D\e[10C"
+  - delay: 1286
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDo you want to read from a file or enter words manually?\e[22m\e[0m \e[0m\e[36mManually\e[39m\e[67D\e[67C\r\n"
+  - delay: 14
+    content: "\e[32m?\e[39m \e[1mDo you want to search for a word or exit?\e[22m\e[0m \e[0m\r\n  \e[36m1) Search for a word\e[39m\r\n  2) Exit\r\n  Answer: \e[10D\e[10C"
+  - delay: 1440
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDo you want to search for a word or exit?\e[22m\e[0m \e[0m\e[36mSearch for a word\e[39m\e[61D\e[61C\r\n"
+  - delay: 7
+    content: "\e[32m?\e[39m \e[1mWhat is the word?\e[22m\e[0m \e[0m\e[20D\e[20C"
+  - delay: 1605
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the word?\e[22m\e[0m \e[0mh\e[21D\e[21C"
+  - delay: 183
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the word?\e[22m\e[0m \e[0mho\e[22D\e[22C"
+  - delay: 181
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the word?\e[22m\e[0m \e[0mhol\e[23D\e[23C"
+  - delay: 102
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the word?\e[22m\e[0m \e[0mhola\e[24D\e[24C"
+  - delay: 138
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the word?\e[22m\e[0m \e[0mhola\e[24D\e[24C\r\n"
+  - delay: 863
+    content: "\e[32m?\e[39m \e[1mMultiple definitions found, choose the one that best fits: \e[22m\e[0m \e[0m\r\n  \e[36m1) U. como salutación familiar.\e[39m\r\n  2) poco us. U. para denotar extrañeza, placentera o desagradable. U. también repetida.\r\n  3) desus. Era u. para llamar a los inferiores.\r\n  Answer: \e[10D\e[10C"
+  - delay: 601
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mMultiple definitions found, choose the one that best fits: \e[22m\e[0m \e[0m\r\n  1) U. como salutación familiar.\r\n  \e[36m2) poco us. U. para denotar extrañeza, placentera o desagradable. U. también repetida.\e[39m\r\n  3) desus. Era u. para llamar a los inferiores.\r\n  Answer: \e[10D\e[10C"
+  - delay: 371
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mMultiple definitions found, choose the one that best fits: \e[22m\e[0m \e[0m\r\n  \e[36m1) U. como salutación familiar.\e[39m\r\n  2) poco us. U. para denotar extrañeza, placentera o desagradable. U. también repetida.\r\n  3) desus. Era u. para llamar a los inferiores.\r\n  Answer: \e[10D\e[10C"
+  - delay: 263
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mMultiple definitions found, choose the one that best fits: \e[22m\e[0m \e[0m\e[36mU. como salutación familiar.\e[39m\e[90D\e[90C\r\n"
+  - delay: 1920
+    content: "\e[36mWord: \e[39m\e[37mhola\e[39m\r\n\e[34mDefinition: \e[39m\e[37mU. como salutación familiar.\e[39m\r\n\e[32mSynonyms: \e[39m\e[37msaludo, buendía, buenosdías, quétal, salud;mal\e[39m\r\n\e[31mAntonyms: \e[39m\e[37mterrible, triste, enojado, desanimado\e[39m\r\n\e[32m?\e[39m \e[1mDo you want to search for a word or exit?\e[22m\e[0m \e[0m\r\n  \e[36m1) Search for a word\e[39m\r\n  2) Exit\r\n  Answer: \e[10D\e[10C"
+  - delay: 2602
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDo you want to search for a word or exit?\e[22m\e[0m \e[0m\e[36mSearch for a word\e[39m\e[61D\e[61C\r\n\e[32m?\e[39m \e[1mWhat is the word?\e[22m\e[0m \e[0m\e[20D\e[20C"
+  - delay: 1625
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the word?\e[22m\e[0m \e[0mt\e[21D\e[21C"
+  - delay: 81
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the word?\e[22m\e[0m \e[0mti\e[22D\e[22C"
+  - delay: 118
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the word?\e[22m\e[0m \e[0mtie\e[23D\e[23C"
+  - delay: 70
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the word?\e[22m\e[0m \e[0mtiem\e[24D\e[24C"
+  - delay: 205
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the word?\e[22m\e[0m \e[0mtiemp\e[25D\e[25C"
+  - delay: 80
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the word?\e[22m\e[0m \e[0mtiempo\e[26D\e[26C"
+  - delay: 199
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the word?\e[22m\e[0m \e[0mtiempo\e[26D\e[26C\r\n"
+  - delay: 791
+    content: "\e[32m?\e[39m \e[1mMultiple definitions found, choose the one that best fits: \e[22m\e[0m \e[0m\r\n  \e[36m1) Duración de las cosas sujetas a mudanza.\e[39m\r\n  2) Magnitud física que permite ordenar la secuencia de los sucesos, estableciendo un pasado, un presente y un futuro, y cuya unidad en el sistema internacional es el segundo.\r\n  3) Parte de la secuencia de los sucesos.\r\n  4) &#xC9;poca durante la cual vive alguien o sucede algo.\r\n  5) estación (|| cada una de las cuatro partes del año).\r\n  6) edad (|| tiempo vivido).\r\n  7) edad (|| duración de una cosa).\r\n\e[2m(Move up and down to reveal more choices)\e[22m\r\n  Answer: \e[10D\e[10C"
+  - delay: 636
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mMultiple definitions found, choose the one that best fits: \e[22m\e[0m \e[0m\r\n  1) Duración de las cosas sujetas a mudanza.\r\n  \e[36m2) Magnitud física que permite ordenar la secuencia de los sucesos, estableciendo un pasado, un presente y un futuro, y cuya unidad en el sistema internacional es el segundo.\e[39m\r\n  3) Parte de la secuencia de los sucesos.\r\n  4) &#xC9;poca durante la cual vive alguien o sucede algo.\r\n  5) estación (|| cada una de las cuatro partes del año).\r\n  6) edad (|| tiempo vivido).\r\n  7) edad (|| duración de una cosa).\r\n\e[2m(Move up and down to reveal more choices)\e[22m\r\n  Answer: \e[10D\e[10C"
+  - delay: 475
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G"
+  - delay: 5
+    content: "\e[32m?\e[39m \e[1mMultiple definitions found, choose the one that best fits: \e[22m\e[0m \e[0m\e[36mMagnitud física que permite ordenar la secuencia de los sucesos, estableciendo un pasado, un presente y un futuro, y cuya unidad en el sistema \e[39m\r\n\e[36minternacional es el segundo.\e[39m\e[28D\e[26C\r\n"
+  - delay: 1566
+    content: "\e[36mWord: \e[39m\e[37mtiempo\e[39m\r\n\e[34mDefinition: \e[39m\e[37mMagnitud física que permite ordenar la secuencia de los sucesos, estableciendo un pasado, un presente y un futuro, y cuya unidad en el sistema internacional es el segundo.\e[39m\r\n\e[32mSynonyms: \e[39m\e[37mpasado, cronología, duración, instante, período\e[39m\r\n\e[31mAntonyms: \e[39m\e[37mespacio, inmovilidad, estaticidad, detención, quietud, pausa\e[39m\r\n"
+  - delay: 8
+    content: "\e[32m?\e[39m \e[1mDo you want to search for a word or exit?\e[22m\e[0m \e[0m\r\n  \e[36m1) Search for a word\e[39m\r\n  2) Exit\r\n  Answer: \e[10D\e[10C"
+  - delay: 1473
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDo you want to search for a word or exit?\e[22m\e[0m \e[0m\r\n  1) Search for a word\r\n  \e[36m2) Exit\e[39m\r\n  Answer: \e[10D\e[10C"
+  - delay: 454
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDo you want to search for a word or exit?\e[22m\e[0m \e[0m\e[36mExit\e[39m\e[48D\e[48C\r\n\e[36mBye!\e[39m\r\n"
+  - delay: 152
+    content: "\e]0;roomba@archlinux:~/GitHub/Spanish-Hacks\a\e[?2004h[roomba@archlinux Spanish-Hacks]$ "
+  - delay: 506
+    content: npx tsx ./index.ts
+  - delay: 620
+    content: "\r\n\e[?2004l\r"
+  - delay: 3109
+    content: "\e[1m\e[36mWelcome to a hack-y \e[39m\e[22m\e[1m\e[91mRAE\e[39m\e[22m\e[1m\e[36m scraper!\e[39m\e[22m\r\n\e[1m\e[36mMade By \e[39m\e[22m\e[1m\e[92mNotARoomba (Nathan)\e[39m\e[22m\e[1m\e[36m and \e[39m\e[22m\e[1m\e[92mAwangran (Ashlee)\e[39m\e[22m\r\n"
+  - delay: 21
+    content: "\e[32m?\e[39m \e[1mDo you want to read from a file or enter words manually?\e[22m\e[0m \e[0m\r\n  \e[36m1) Manually\e[39m\r\n  2) File (Expert Mode)\r\n  3) Exit\r\n  Answer: \e[10D\e[10C"
+  - delay: 657
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDo you want to read from a file or enter words manually?\e[22m\e[0m \e[0m\r\n  1) Manually\r\n  \e[36m2) File (Expert Mode)\e[39m\r\n  3) Exit\r\n  Answer: \e[10D\e[10C"
+  - delay: 2231
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDo you want to read from a file or enter words manually?\e[22m\e[0m \e[0m\e[36mFile (Expert Mode)\e[39m\e[77D\e[77C\r\n"
+  - delay: 14
+    content: "\e[32m?\e[39m \e[1mWhere is the file (Relative or Absolute): \e[22m\e[0m \e[0m\e[45D\e[45C"
+  - delay: 917
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhere is the file (Relative or Absolute): \e[22m\e[0m \e[0m.\e[46D\e[46C"
+  - delay: 161
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhere is the file (Relative or Absolute): \e[22m\e[0m \e[0m./\e[47D\e[47C"
+  - delay: 508
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhere is the file (Relative or Absolute): \e[22m\e[0m \e[0m./t\e[48D\e[48C"
+  - delay: 182
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhere is the file (Relative or Absolute): \e[22m\e[0m \e[0m./te\e[49D\e[49C"
+  - delay: 190
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhere is the file (Relative or Absolute): \e[22m\e[0m \e[0m./tes\e[50D\e[50C"
+  - delay: 91
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhere is the file (Relative or Absolute): \e[22m\e[0m \e[0m./test\e[51D\e[51C"
+  - delay: 257
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhere is the file (Relative or Absolute): \e[22m\e[0m \e[0m./test.\e[52D\e[52C"
+  - delay: 287
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhere is the file (Relative or Absolute): \e[22m\e[0m \e[0m./test.t\e[53D\e[53C"
+  - delay: 84
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhere is the file (Relative or Absolute): \e[22m\e[0m \e[0m./test.tx\e[54D\e[54C"
+  - delay: 55
+    content: "\e[2K\e[G"
+  - delay: 5
+    content: "\e[32m?\e[39m \e[1mWhere is the file (Relative or Absolute): \e[22m\e[0m \e[0m./test.txt\e[55D\e[55C"
+  - delay: 202
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhere is the file (Relative or Absolute): \e[22m\e[0m \e[0m./test.txt\e[55D\e[55C\r\n\e[32mGetting definition for word: \e[39m\e[37mhola\e[39m\r\n"
+  - delay: 945
+    content: "\e[32m?\e[39m \e[1mMultiple definitions found, choose the one that best fits: \e[22m\e[0m \e[0m\r\n  \e[36m1) U. como salutación familiar.\e[39m\r\n  2) poco us. U. para denotar extrañeza, placentera o desagradable. U. también repetida.\r\n  3) desus. Era u. para llamar a los inferiores.\r\n  Answer: \e[10D\e[10C"
+  - delay: 2350
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G"
+  - delay: 5
+    content: "\e[32m?\e[39m \e[1mMultiple definitions found, choose the one that best fits: \e[22m\e[0m \e[0m\r\n  1) U. como salutación familiar.\r\n  \e[36m2) poco us. U. para denotar extrañeza, placentera o desagradable. U. también repetida.\e[39m\r\n  3) desus. Era u. para llamar a los inferiores.\r\n  Answer: \e[10D\e[10C"
+  - delay: 315
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mMultiple definitions found, choose the one that best fits: \e[22m\e[0m \e[0m\e[36mpoco us. U. para denotar extrañeza, placentera o desagradable. U. también repetida.\e[39m\e[145D\e[145C\r\n"
+  - delay: 2418
+    content: "\e[32mGetting definition for word: \e[39m\e[37mtiempo\e[39m\r\n"
+  - delay: 830
+    content: "\e[32m?\e[39m \e[1mMultiple definitions found, choose the one that best fits: \e[22m\e[0m \e[0m\r\n  \e[36m1) Duración de las cosas sujetas a mudanza.\e[39m\r\n  2) Magnitud física que permite ordenar la secuencia de los sucesos, estableciendo un pasado, un presente y un futuro, y cuya unidad en el sistema internacional es el segundo.\r\n  3) Parte de la secuencia de los sucesos.\r\n  4) &#xC9;poca durante la cual vive alguien o sucede algo.\r\n  5) estación (|| cada una de las cuatro partes del año).\r\n  6) edad (|| tiempo vivido).\r\n  7) edad (|| duración de una cosa).\r\n\e[2m(Move up and down to reveal more choices)\e[22m\r\n  Answer: \e[10D\e[10C"
+  - delay: 747
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mMultiple definitions found, choose the one that best fits: \e[22m\e[0m \e[0m\r\n  1) Duración de las cosas sujetas a mudanza.\r\n  \e[36m2) Magnitud física que permite ordenar la secuencia de los sucesos, estableciendo un pasado, un presente y un futuro, y cuya unidad en el sistema internacional es el segundo.\e[39m\r\n  3) Parte de la secuencia de los sucesos.\r\n  4) &#xC9;poca durante la cual vive alguien o sucede algo.\r\n  5) estación (|| cada una de las cuatro partes del año).\r\n  6) edad (|| tiempo vivido).\r\n  7) edad (|| duración de una cosa).\r\n\e[2m(Move up and down to reveal more choices)\e[22m\r\n  Answer: \e[10D\e[10C"
+  - delay: 815
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mMultiple definitions found, choose the one that best fits: \e[22m\e[0m \e[0m\e[36mMagnitud física que permite ordenar la secuencia de los sucesos, estableciendo un pasado, un presente y un futuro, y cuya unidad en el sistema \e[39m\r\n\e[36minternacional es el segundo.\e[39m\e[28D\e[26C\r\n"
+  - delay: 1573
+    content: "\e[32m?\e[39m \e[1mChoose a name for the file to save the definitions: \e[22m\e[0m \e[0m\e[55D\e[55C"
+  - delay: 1551
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mChoose a name for the file to save the definitions: \e[22m\e[0m \e[0mt\e[56D\e[56C"
+  - delay: 246
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mChoose a name for the file to save the definitions: \e[22m\e[0m \e[0mts\e[57D\e[57C"
+  - delay: 264
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mChoose a name for the file to save the definitions: \e[22m\e[0m \e[0mt\e[56D\e[56C"
+  - delay: 144
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mChoose a name for the file to save the definitions: \e[22m\e[0m \e[0mte\e[57D\e[57C"
+  - delay: 175
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mChoose a name for the file to save the definitions: \e[22m\e[0m \e[0mtes\e[58D\e[58C"
+  - delay: 164
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mChoose a name for the file to save the definitions: \e[22m\e[0m \e[0mtest\e[59D\e[59C"
+  - delay: 487
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mChoose a name for the file to save the definitions: \e[22m\e[0m \e[0mtest-\e[60D\e[60C"
+  - delay: 319
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mChoose a name for the file to save the definitions: \e[22m\e[0m \e[0mtest-o\e[61D\e[61C"
+  - delay: 95
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mChoose a name for the file to save the definitions: \e[22m\e[0m \e[0mtest-ou\e[62D\e[62C"
+  - delay: 66
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mChoose a name for the file to save the definitions: \e[22m\e[0m \e[0mtest-out\e[63D\e[63C"
+  - delay: 112
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mChoose a name for the file to save the definitions: \e[22m\e[0m \e[0mtest-outp\e[64D\e[64C"
+  - delay: 87
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mChoose a name for the file to save the definitions: \e[22m\e[0m \e[0mtest-outpu\e[65D\e[65C"
+  - delay: 46
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mChoose a name for the file to save the definitions: \e[22m\e[0m \e[0mtest-output\e[66D\e[66C"
+  - delay: 280
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mChoose a name for the file to save the definitions: \e[22m\e[0m \e[0mtest-output.\e[67D\e[67C"
+  - delay: 326
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mChoose a name for the file to save the definitions: \e[22m\e[0m \e[0mtest-output.t\e[68D\e[68C"
+  - delay: 70
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mChoose a name for the file to save the definitions: \e[22m\e[0m \e[0mtest-output.tx\e[69D\e[69C"
+  - delay: 64
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mChoose a name for the file to save the definitions: \e[22m\e[0m \e[0mtest-output.txt\e[70D\e[70C"
+  - delay: 735
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mChoose a name for the file to save the definitions: \e[22m\e[0m \e[0mtest-output.tx\e[69D\e[69C"
+  - delay: 160
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mChoose a name for the file to save the definitions: \e[22m\e[0m \e[0mtest-output.t\e[68D\e[68C"
+  - delay: 140
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mChoose a name for the file to save the definitions: \e[22m\e[0m \e[0mtest-output.\e[67D\e[67C"
+  - delay: 140
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mChoose a name for the file to save the definitions: \e[22m\e[0m \e[0mtest-output\e[66D\e[66C"
+  - delay: 228
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mChoose a name for the file to save the definitions: \e[22m\e[0m \e[0mtest-output\e[66D\e[66C\r\n\e[32mSaved definitions to file: \e[39m\e[37mtest-output\e[39m.txt\r\n\e[36mBye!\e[39m\r\n"
+  - delay: 82
+    content: "\e]0;roomba@archlinux:~/GitHub/Spanish-Hacks\a\e[?2004h[roomba@archlinux Spanish-Hacks]$ "
+  - delay: 1601
+    content: c
+  - delay: 84
+    content: a
+  - delay: 150
+    content: t
+  - delay: 84
+    content: ' '
+  - delay: 624
+    content: .
+  - delay: 61
+    content: /
+  - delay: 305
+    content: t
+  - delay: 87
+    content: e
+  - delay: 189
+    content: s
+  - delay: 65
+    content: t
+  - delay: 232
+    content: .
+  - delay: 301
+    content: t
+  - delay: 89
+    content: x
+  - delay: 55
+    content: t
+  - delay: 182
+    content: "\r\n\e[?2004l\r"
+  - delay: 5
+    content: "hola\r\ntiempo\e]0;roomba@archlinux:~/GitHub/Spanish-Hacks\a\e[?2004h[roomba@archlinux Spanish-Hacks]$ "
+  - delay: 710
+    content: cat ./test.txt
+  - delay: 473
+    content: "\b\e[K"
+  - delay: 165
+    content: "\b\e[K"
+  - delay: 215
+    content: "\b\e[K"
+  - delay: 204
+    content: "\b\e[K"
+  - delay: 438
+    content: '-'
+  - delay: 271
+    content: o
+  - delay: 75
+    content: u
+  - delay: 45
+    content: t
+  - delay: 146
+    content: p
+  - delay: 88
+    content: u
+  - delay: 38
+    content: t
+  - delay: 265
+    content: .
+  - delay: 276
+    content: t
+  - delay: 51
+    content: x
+  - delay: 80
+    content: t
+  - delay: 172
+    content: "\r\n\e[?2004l\rWord: hola\r\nDefinition: poco us. U. para denotar extrañeza, placentera o desagradable. U. también repetida.\r\nSynonyms: alegría, asombro, sorpresa, admiración, desconcierto\r\nAntonyms: normalidad, costumbre, rutina, común, frecuente\r\n\r\nWord: tiempo\r\nDefinition: Magnitud física que permite ordenar la secuencia de los sucesos, estableciendo un pasado, un presente y un futuro, y cuya unidad en el sistema internacional es el segundo.\r\nSynonyms: pasado, cronología, duración, edad, sucesión\r\nAntonyms: atraso, retroceso, detención, inmovilidad, estancamiento\e]0;roomba@archlinux:~/GitHub/Spanish-Hacks\a\e[?2004h[roomba@archlinux Spanish-Hacks]$ "
+  - delay: 2128
+    content: "\e[?2004l\r\r\nlogout\r\n"
