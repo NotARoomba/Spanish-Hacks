@@ -6,6 +6,7 @@
     "chalk": "^5.3.0",
     "chatgpt": "^5.2.5",
     "enquirer": "^2.4.1",
+    "googlethis": "^1.7.1",
     "nodemon": "^3.0.1",
     "prettier": "^3.0.2",
     "rae-api": "^1.5.3",

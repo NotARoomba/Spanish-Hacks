@@ -68,3 +68,129 @@ Definition: Que trata de la vida de asceta, como guía y estímulo de su ejercic
 Synonyms: abstemias, austeras, rigurosas, espartanas, severas
 Antonyms: mundanas, hedonistas, indulgentes, libertinas, lascivas, 
 
+Word: Místicas
+Definition: Expresión literaria de la experiencia de lo divino.
+Synonyms: trascendental, espiritual, sagrado, celestial, religioso
+Antonyms: terrenal, profano, mundano, material, secular
+
+Word: Odas
+Definition: T. litambién Composición lírica en estrofas de tono elevado, que generalmente ensalza algo o a alguien.
+Synonyms: encomio, loa, elogio, loor, alabanza
+Antonyms: crítica, censura, desprecio, denigración, reproche
+
+Word: Égloga
+Definition: T. litambién Composición poética del género bucólico, en la que suelen dialogar pastores.
+Synonyms: pastoral, bucólica, poemapastoril, églogapoética, composiciónbucólica
+Antonyms: drama, tragedia, comedia, farsa, sátira
+
+Word: Elegía
+Definition: Composición lírica en que se lamenta la muerte de una persona o cualquier otro acontecimiento infortunado.
+Synonyms: lamento, queja, llanto, melancolía, tristeza
+Antonyms: celebración, alegría, júbilo, regocijo, felicidad
+
+Word: Sainete
+Definition: Pieza dramática en un acto, de carácter popular y burlesco, que se representaba como intermedio o al final de una función.
+Synonyms: cachondeo, farsa, comedia, sátira, burla/tragedia
+Antonyms: drama, seriedad, solemnidad, gravedad
+
+Word: Madrigal
+Definition: Métr. Poema breve, generalmente de tema amoroso, en que se combinan versos de siete y de once sílabas.
+Synonyms: amorío, lírico, romance, canción, composición
+Antonyms: prosaico, narrativo, épico, dramático, verso, 
+
+Word: Epístola
+Definition: cultambién Carta o misiva que se escribe a alguien.
+Synonyms: carta, mensaje, comunicación, correspondencia, cartaepistolar
+Antonyms: amonestación, advertencia, reprimenda, censura, reproche
+
+Word: Peripecia
+Definition: En el drama o en cualquier otra composición análoga, cambio repentino de situación debido a un accidente imprevisto que altera el estado de las cosas.
+Synonyms: voltereta, giro, vuelco, cambio, transformación
+Antonyms: estabilidad, continuidad, inmutabilidad, constancia, persistencia
+
+Word: Humanismo
+Definition: Movimiento renacentista que propugna el retorno a la cultura grecolatina como medio de restaurar los valores humanos.
+Synonyms: clasicismo, renacimiento, culturahumanística, erasmismo, antropocentrismo
+Antonyms: barbarismo, materialismo, deshumanización, antivalores, indiferencia
+
+Word: Gesta
+Definition: Hecho o conjunto de hechos memorables.
+Synonyms: notable, memorable, destacado, relevante, importante
+Antonyms: olvidable, trivial, común, corriente, insustancial
+
+Word: Bucólicas
+Definition: T. litambién Dicho de un género de poesía o de una composición poética, por lo común dialogada: Que trata de modo idealizado la vida pastoril.
+Synonyms: símiles, pastoriles, campestres, rústicas, idílicas
+Antonyms: églogas, agrestes, rurales, camperas, rusticas
+
+Word: Exotismo
+Definition: Tendencia a incorporar formas y estilos artísticos de países alejados de la cultura occidental.
+Synonyms: 1, atractivo2, singularidad3, originalidad4, extrañeza5
+Antonyms: fascinación1, convencionalismo2, familiaridad3, tradicionalismo4, común5, occidentalismo
+
+Word: Clero
+Definition: Conjunto de los clérigos.
+Synonyms: sacerdotes, eclesiásticos, religiosos, presbíteros, canónigos
+Antonyms: laicos, seglares, profanos, mundanos, noclérigos
+
+Word: Antropocéntrico
+Definition: Fil. Perteneciente o relativo al antropocentrismo.
+Synonyms: biocéntrico, ecocéntrico, noantropocéntrico, noantropocéntrico, noantropocéntrico
+Antonyms: antropocentrista, humanocéntrico, hombre-centrado, hombre-en-el-centro, humanista, 
+
+Word: Caballería
+Definition: Arma constitutiva de un ejército, formada por cuerpos montados a caballo y posteriormente vehículos acorazados.
+Synonyms: caballería, jinetes, montados, lanceros, huestes
+Antonyms: infantería, pie, peatones, desmontados, civiles, 
+
+Word: Elipsis
+Definition: Gram. Omisión de un segmento sintáctico cuyo contenido se puede recuperar por el contexto; poco ej., en Juan estudia biología y María (estudia) matemáticas.
+Synonyms: omisión, omisiónelíptica, omisiónporcontexto, supresión, elidir
+Antonyms: expansión, redundancia, ampliación, explicitación, desarrollo, 
+
+Word: Conector
+Definition: Ling. Unidad ling&#xFC;ística que vincula semánticamente grupos sintácticos, oraciones o partes de un texto.
+Synonyms: enlace, vínculo, unión, unificador, enlazador
+Antonyms: separador, disyuntor, disociador, desconector, desunidor
+
+Word: Deducción
+Definition: Fil. Método por el cual se procede lógicamente de lo universal a lo particular.
+Synonyms: inference, inferencia, conclusión, razonamiento, deducciónlógica
+Antonyms: inducción, inducción, generalización, abstracción, inferir
+
+Word: Tesis
+Definition: Conclusión, proposición que se mantiene con razonamientos.
+Synonyms: proposición, argumento, afirmación, aseveración, alegación
+Antonyms: refutación, contradicción, negación, desacuerdo, antítesis
+
+Word: Argumento
+Definition: Razonamiento para probar o demostrar una proposición, o para convencer de lo que se afirma o se niega.
+Synonyms: prueba, demostración, justificación, alegato, razonamiento
+Antonyms: refutación, contradicción, desacuerdo, desmentido, negación, 
+
+Word: Cohesión
+Definition: Acción y efecto de reunirse o adherirse las cosas entre sí o la materia de que están formadas.
+Synonyms: unión, adhesión, convergencia, consistencia, solidaridad
+Antonyms: separación, disociación, divergencia, desunión, fragmentación
+
+Word: Coherencia
+Definition: Conexión, relación o unión de unas cosas con otras.
+Synonyms: conexión, relación, unión, correspondencia, consistencia
+Antonyms: discordia, desvinculación, separación, incoherencia, desarmonía
+
+Word: Dialecto
+Definition: Ling. Sistema ling&#xFC;ístico considerado con relación al grupo de los varios derivados de un tronco común.
+Synonyms: sistema, variante, habla, lengua, forma
+Antonyms: divergente, diferente, opuesto, contrapuesto, distinto
+
+Word: Hispano hablante
+Definition: Que tiene el español como lengua materna o propia. Aplural a pers., u. también c. s.
+Synonyms: hablantedeespañol, castellanohablante, parlantedeespañol, hispanohablador, usuariodeespañol
+Antonyms: extranjero, nohispanohablante, ajenoalespañol, angloparlante, nocastellanohablante
+
+Word: Sánscrito
+Definition: Lengua del grupo indio, derivada del védico, que se habló en el norte de la India desde fecha antigua hasta el siglo III a. C. y que después continuó existiendo como lengua escrita de las religiones, la literatura y el pensamiento.
+Synonyms: lenguasacerdotal, idiomaclásico, antiguo, védico, lenguajesagrado
+Antonyms: moderno, contemporáneo, vernáculo, hablado, común
+
+ 

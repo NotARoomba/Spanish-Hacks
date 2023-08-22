@@ -1,49 +1,48 @@
 # The configurations that used for the recording, feel free to edit them
 config:
-
   # Specify a command to be executed
   # like `/bin/bash -l`, `ls`, or any other commands
   # the default is bash for Linux
   # or powershell.exe for Windows
   command: bash -l
-  
+
   # Specify the current working directory path
   # the default is the current working directory path
   cwd: /home/roomba/GitHub/Spanish-Hacks
-  
+
   # Export additional ENV variables
   env:
     recording: true
-  
+
   # Explicitly set the number of columns
   # or use `auto` to take the current
   # number of columns of your shell
   cols: 100
-  
+
   # Explicitly set the number of rows
   # or use `auto` to take the current
   # number of rows of your shell
   rows: 17
-  
+
   # Amount of times to repeat GIF
   # If value is -1, play once
   # If value is 0, loop indefinitely
   # If value is a positive number, loop n times
   repeat: 0
-  
+
   # Quality
   # 1 - 100
   quality: 100
-  
+
   # Delay between frames in ms
   # If the value is `auto` use the actual recording delays
   frameDelay: auto
-  
+
   # Maximum delay between frames in ms
   # Ignored if the `frameDelay` isn't set to `auto`
   # Set to `auto` to prevent limiting the max idle time
   maxIdleTime: 2000
-  
+
   # The surrounding frame box
   # The `type` can be null, window, floating, or solid`
   # To hide the title use the value null
@@ -55,7 +54,7 @@ config:
       border: 0px black solid
       # boxShadow: none
       # margin: 0px
-  
+
   # Add a watermark image to the rendered gif
   # You need to specify an absolute path for
   # the image on your machine or a URL, and you can also
@@ -68,25 +67,25 @@ config:
       bottom: 15px
       width: 100px
       opacity: 0.9
-  
+
   # Cursor style can be one of
   # `block`, `underline`, or `bar`
   cursorStyle: block
-  
+
   # Font family
   # You can use any font that is installed on your machine
   # in CSS-like syntax
   fontFamily: "Monaco"
-  
+
   # The size of the font
   fontSize: 12
-  
+
   # The height of lines
   lineHeight: 1
-  
+
   # The spacing between letters
   letterSpacing: 0
-  
+
   # Theme
   theme:
     background: "transparent"
@@ -108,19 +107,19 @@ config:
     brightMagenta: "#ae89fe"
     brightCyan: "#b3f0fc"
     brightWhite: "#f9f9f4"
-  
+
 # Records, feel free to edit them
 records:
   - delay: 794
     content: "\e]0;roomba@archlinux:~/GitHub/Spanish-Hacks\a\e[?2004h[roomba@archlinux Spanish-Hacks]$ "
   - delay: 2758
-    content: 'n'
+    content: "n"
   - delay: 589
     content: p
   - delay: 111
     content: x
   - delay: 203
-    content: ' '
+    content: " "
   - delay: 444
     content: t
   - delay: 296
@@ -128,7 +127,7 @@ records:
   - delay: 135
     content: x
   - delay: 531
-    content: ' '
+    content: " "
   - delay: 627
     content: .
   - delay: 77
@@ -136,7 +135,7 @@ records:
   - delay: 257
     content: i
   - delay: 123
-    content: 'n'
+    content: "n"
   - delay: 293
     content: d
   - delay: 132
@@ -326,7 +325,7 @@ records:
   - delay: 150
     content: t
   - delay: 84
-    content: ' '
+    content: " "
   - delay: 624
     content: .
   - delay: 61
@@ -362,7 +361,7 @@ records:
   - delay: 204
     content: "\b\e[K"
   - delay: 438
-    content: '-'
+    content: "-"
   - delay: 271
     content: o
   - delay: 75
