@@ -185,12 +185,21 @@ Antonyms: divergente, diferente, opuesto, contrapuesto, distinto
 
 Word: Hispano hablante
 Definition: Que tiene el español como lengua materna o propia. Aplural a pers., u. también c. s.
-Synonyms: hablantedeespañol, castellanohablante, parlantedeespañol, hispanohablador, usuariodeespañol
-Antonyms: extranjero, nohispanohablante, ajenoalespañol, angloparlante, nocastellanohablante
+Synonyms: hablante, castellano, hispanoparlante, español, nativo
+Antonyms: inglés, francés, alemán, chino, italiano
+
+Word: Lenguas Romance
+Definition: Las lenguas romances son idiomas modernos que han evolucionado desde los tiempos de Roma, más específicamente del latín vulgar. El latín fue la lengua de los romanos durante los siglos III al VIII. Conforme los romanos viajaron y se asentaron en toda Europa, surgieron diversos dialectos del latín.10 oct 2021
+Synonyms: synonyms for "lenguas romance": idiomas romances, lenguas neolatinas, lenguas latinas, lenguas vulgares, lenguas derivadas del latínantonyms for "lenguas romance":lenguas germánicas
+Antonyms: lenguas eslavas, lenguas celtas, lenguas semíticas, lenguas afroasiáticas
+
+Word: Lírica Provenzal
+Definition: La poesía provenzal constituye el primer movimiento de lírica culta en la Europa occidental. Surge en el sur de Francia, en un lugar llamado Provenza, alrededor del 1100. Fue cultivada por los trovadores, que utilizan para expresar sus sentimientos una lengua romance, el provenzal o langue d´oc..
+Synonyms: lírica trovadoresca, poesía trovadoresca, poesía provenzal, trovadoresco, poesía cortesana prosa
+Antonyms: narrativa, épica, literatura, novela
 
 Word: Sánscrito
 Definition: Lengua del grupo indio, derivada del védico, que se habló en el norte de la India desde fecha antigua hasta el siglo III a. C. y que después continuó existiendo como lengua escrita de las religiones, la literatura y el pensamiento.
-Synonyms: lenguasacerdotal, idiomaclásico, antiguo, védico, lenguajesagrado
-Antonyms: moderno, contemporáneo, vernáculo, hablado, común
+Synonyms: sánscrito, clásico, védico, antiguo, sagrado
+Antonyms: moderno, evolucionado, contemporáneo, actual, vivo
 
- 
