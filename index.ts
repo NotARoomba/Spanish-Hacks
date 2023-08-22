@@ -44,7 +44,13 @@ const getWordDefinition = async (word: string): Promise<WordDefinition | undefin
         accessToken: env.OPENAI,
         apiReverseProxyUrl: "https://ai.fakeopen.com/api/conversation"
     })
-    let sya = (await api.sendMessage(`pretend you are an api, given the word ${word} and its definition "${definition}" give me 5 synonyms and 5 antonyms, in spanish, only send the synonyms and antonyms seperated by commas and no other text or styling, an example response would be "fine,good,well,happy,smiling,bad,horrible,disgusted,sick,horrid"`)).text;
+    let sya;
+    try {
+        sya = (await api.sendMessage(`pretend you are an api, given the word ${word} and its definition "${definition}" give me 5 synonyms and 5 antonyms, in spanish, only send the synonyms and antonyms seperated by commas and no other text or styling, an example response would be "fine,good,well,happy,smiling,bad,horrible,disgusted,sick,horrid"`)).text;
+    } catch {
+        console.log(chalk.redBright('Error getting antonyms for: ') + chalk.white(word))
+        return;
+    }
     sya = sya.toLocaleLowerCase().replace(/\s/g, "").replace("synonyms:", "").replace("antonyms:", "").replace(/\./g, ",").replace("sinónimos:", "").replace("antónimos:", "")
     const synonyms = sya.split(",").splice(0, 5)
     const antonyms = sya.split(",").splice(5, 10)
@@ -53,10 +59,9 @@ const getWordDefinition = async (word: string): Promise<WordDefinition | undefin
 
 
 (async () => {
-    //TODO: Input from a file and output to a file or simple cli based on what the user wants
     console.log(chalk.bold.cyanBright("Welcome to a hack-y ") + chalk.bold.redBright("RAE") + chalk.bold.cyanBright(" scraper!"))
     console.log(chalk.bold.cyanBright("Made By ") + chalk.bold.greenBright("NotARoomba (Nathan)") + chalk.bold.cyanBright(" and ") + chalk.bold.greenBright("Awangran (Ashlee)"))
-
+    //return console.log(await getWordDefinition("edad media"))
     const todo = (await inquirer.prompt({
         type: 'rawlist',
         name: 'inputType',
@@ -115,15 +120,39 @@ const getWordDefinition = async (word: string): Promise<WordDefinition | undefin
                 return input.length != 0
             }
           })).file
+          const fname: String = (await inquirer.prompt({
+            type: 'input',
+            name: 'fileName',
+            message: 'Choose a name for the file to save the definitions: ',
+            validate: (input: String) => {
+                return input.length != 0
+            }
+          })).fileName
           let file = null;
           try {
             file = await fs.readFile(filePath, { encoding: 'utf-8'})
           } catch {
             console.log(chalk.redBright('Error reading from file!'))
           }
+          //todo resume from file
+          let resumeable = null;
+          try {
+            resumeable = (await fs.readFile('./' + fname + '.txt', { encoding: 'utf-8'})).split(/Word: /g)
+          } catch {
+            resumeable = null;
+          }
+
+
+          
           if (!file) return;
           file = file.split(/\n/g)
-          let wordArr = []
+          let lastWord = null;
+          if (resumeable) {
+            lastWord = resumeable[resumeable.length-1].split(/\n/)[0]
+            let index = file.indexOf(lastWord)
+            file.splice(0, index==-1?0:index+1);
+            console.log(chalk.bold.green('File already exists! Resuming from word: ') + chalk.red(lastWord));
+          }
           for (let word of file) {
             console.log(chalk.green('Getting definition for word: ') + chalk.white(word))
             const wordDefinition = await getWordDefinition(word);
@@ -131,21 +160,10 @@ const getWordDefinition = async (word: string): Promise<WordDefinition | undefin
                 console.log(chalk.redBright('Error getting word definition for: ') + chalk.white(word))
                 continue
             };
-            wordArr.push(wordDefinition)
-          }
-          const fname: String = (await inquirer.prompt({
-              type: 'input',
-              name: 'fileName',
-              message: 'Choose a name for the file to save the definitions: ',
-              validate: (input: String) => {
-                  return input.length != 0
-              }
-            })).fileName
+            await fs.appendFile('./' + fname + '.txt', `Word: ${wordDefinition.word}\nDefinition: ${wordDefinition.definition}\nSynonyms: ${wordDefinition.synonyms.join(', ')}\nAntonyms: ${wordDefinition.antonyms.join(', ')}\n\n`)
 
-            await fs.writeFile('./' + fname + '.txt', wordArr.map((v) => {
-              return `Word: ${v.word}\nDefinition: ${v.definition}\nSynonyms: ${v.synonyms.join(', ')}\nAntonyms: ${v.antonyms.join(', ')}`
-            }).join('\n\n'));
-            console.log(chalk.green('Saved definitions to file: ') + chalk.white(fname) + '.txt')
+          }
+        console.log(chalk.green('Saved definitions to file: ') + chalk.white(fname) + '.txt')
 
     }
     return console.log(chalk.cyanBright("Bye!"))

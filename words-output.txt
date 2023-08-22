@@ -1,0 +1,70 @@
+Word: Medieval
+Definition: Perteneciente o relativo a la Edad Media.
+Synonyms: moderno, contemporáneo, actual, presente, novedoso
+Antonyms: histórico, antiguo, ancestral, pasadizo, clásico, 
+
+Word: Renacentista
+Definition: Perteneciente o relativo al Renacimiento.
+Synonyms: clásico, histórico, culto, artístico, creativo
+Antonyms: medieval, antiguo, oscuro, primitivo, arcaico
+
+Word: Teogonía
+Definition: Narración del origen y genealogía de los dioses.
+Synonyms: canto, epopéya, himno, mito, relatodivino
+Antonyms: fin, finalización, conclusión, culminación, cierre
+
+Word: Moros
+Definition: Perteneciente o relativo al &#xC1;frica septentrional frontera a España o a los moros.
+Synonyms: magrebí, bereber, norteafricano, musulmán, magrebí
+Antonyms: español, ibérico, europeo, cristiano, occidental
+
+Word: Mester
+Definition: rur. menester.
+Synonyms: necesario, indispensable, requerido, preciso, obligatorio
+Antonyms: innecesario, prescindible, superfluo, opcional, presunto
+
+Word: Épica
+Definition: Perteneciente o relativo a la epopeya o a la poesía heroica.
+Synonyms: heroica, magnífica, grandiosa, majestuosa, epopeya
+Antonyms: insignificante, banal, trivial, común, ordinario
+
+Word: Jarchas
+Definition: T. litambién Canción tradicional en mozárabe o en árabe coloquial con que cerraban las moaxajas los poetas andalusíes árabes o hebreos.
+Synonyms: tradicionales, canciones, poesía, versos, líricas
+Antonyms: modernas, innovadoras, contemporáneas, actuales, nuevas
+
+Word: Juglar
+Definition: En la Edad Media, persona que iba de unos lugares a otros y recitaba, cantaba o bailaba o hacía juegos ante el pueblo o ante los nobles y los reyes.
+Synonyms: nómada, trovador, itinerante, juglaresa, ambulante
+Antonyms: noble, rey, aristócrata, plebeyo, campesino
+
+Word: Trovador
+Definition: Poeta de la Edad Media que escribía y trovaba en lengua de oc.
+Synonyms: juglar, trovadoresco, poetalírico, poetamedieval, cantormedieval
+Antonyms: prosaico, moderno, contemporáneo, actual, contemporaneidad
+
+Word: Romancero
+Definition: Persona que canta romances.
+Synonyms: trovero, cantor, juglar, trovador, rapsoda
+Antonyms: mudo, callado, silencioso, ciego, sordo
+
+Word: Verso
+Definition: Palabra o conjunto de palabras sujetas a medida y cadencia, o solo a cadencia. U. también en sentido colectivo, por contraposición a prosa.
+Synonyms: rítmico, poético, musical, melodioso, armonioso
+Antonyms: prosa, narrativa, noverso, prosaico, común
+
+Word: Prosa
+Definition: Forma de expresión habitual, oral o escrita, no sujeta a las reglas del verso.
+Synonyms: sin, desenfadada, coloquial, informal, espontánea
+Antonyms: rígida, estructurada, reglamentada, métrica, verso, 
+
+Word: Soneto
+Definition: Composición poética que consta de catorce versos endecasílabos distribuidos en dos cuartetos y dos tercetos. En cada uno de los cuartetos riman, por regla general, el primer verso con el cuarto y el segundo con el tercero, y en ambos deben ser unas mismas las consonancias. En los tercetos pueden ir estas ordenadas de distintas maneras.
+Synonyms: catorceversosendecasílabos, rimaconsonante, poesíalírica, estructurafija, versoclásico
+Antonyms: composiciónmétrica, formapoética, estrofacaracterística, métricaestricta, poematradicional, poesíaclásica, creaciónpoética, expresiónartística, obraliteraria, versificaciónordenadaprosodialibre
+
+Word: Ascéticas
+Definition: Que trata de la vida de asceta, como guía y estímulo de su ejercicio.
+Synonyms: abstemias, austeras, rigurosas, espartanas, severas
+Antonyms: mundanas, hedonistas, indulgentes, libertinas, lascivas, 
+
