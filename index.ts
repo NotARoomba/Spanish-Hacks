@@ -33,7 +33,7 @@ const getWordDefinition = async (
         message: "Would you rather: ",
         choices: [
           {
-            name: "Search on google for definition.",
+            name: "Search on Google for definition.",
             value: true,
           },
           {
@@ -56,6 +56,13 @@ const getWordDefinition = async (
         listOfDefinitions.push(response.knowledge_panel.description);
       if (response.featured_snippet.description)
         listOfDefinitions.push(response.featured_snippet.description);
+      if (listOfDefinitions.length == 0) {
+        console.log(
+          chalk.redBright("Error searching Google for: ") +
+            chalk.whiteBright(word),
+        );
+        return undefined;
+      }
     }
   } else {
     const id =
