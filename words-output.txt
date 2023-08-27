@@ -1,205 +1,210 @@
 Word: Medieval
 Definition: Perteneciente o relativo a la Edad Media.
-Synonyms: moderno, contemporáneo, actual, presente, novedoso
-Antonyms: histórico, antiguo, ancestral, pasadizo, clásico, 
+Synonyms:  moderno, contemporáneo, actual, actualizado, nuevo; posterior
+Antonyms: futurista, vanguardista, avanzado, contemporáneo, 
 
 Word: Renacentista
 Definition: Perteneciente o relativo al Renacimiento.
-Synonyms: clásico, histórico, culto, artístico, creativo
-Antonyms: medieval, antiguo, oscuro, primitivo, arcaico
+Synonyms: clásico, moderno, culto, artístico, creativo
+Antonyms: medieval, antiguo, oscuro, primitivo, atrasado
 
 Word: Teogonía
 Definition: Narración del origen y genealogía de los dioses.
-Synonyms: canto, epopéya, himno, mito, relatodivino
-Antonyms: fin, finalización, conclusión, culminación, cierre
+Synonyms: narración, relato, mitología, leyenda, epopeyacierre
+Antonyms: finalización, conclusión, término, culminación
 
 Word: Moros
 Definition: Perteneciente o relativo al &#xC1;frica septentrional frontera a España o a los moros.
-Synonyms: magrebí, bereber, norteafricano, musulmán, magrebí
-Antonyms: español, ibérico, europeo, cristiano, occidental
+Synonyms: sure, here are the synonyms followed by the  norteafricano, magrebí, berber, mauritano
+Antonyms: saharianoantonyms: español, europeo, occidental, peninsular, castellano
 
 Word: Mester
 Definition: rur. menester.
-Synonyms: necesario, indispensable, requerido, preciso, obligatorio
-Antonyms: innecesario, prescindible, superfluo, opcional, presunto
+Synonyms: necesario, preciso, fundamental, esencial, obligatorio
+Antonyms: inútil, prescindible, superfluo, innecesario, prescrito
 
 Word: Épica
 Definition: Perteneciente o relativo a la epopeya o a la poesía heroica.
-Synonyms: heroica, magnífica, grandiosa, majestuosa, epopeya
-Antonyms: insignificante, banal, trivial, común, ordinario
+Synonyms: grandiosa, heroica, majestuosa, legendaria, trascendental
+Antonyms: insignificante, trivial, común, corriente, banal
 
 Word: Jarchas
 Definition: T. litambién Canción tradicional en mozárabe o en árabe coloquial con que cerraban las moaxajas los poetas andalusíes árabes o hebreos.
-Synonyms: tradicionales, canciones, poesía, versos, líricas
-Antonyms: modernas, innovadoras, contemporáneas, actuales, nuevas
+Synonyms: canción, poema, verso, composición, líricarara
+Antonyms: inusual, atípica, excepcional, única
 
 Word: Juglar
 Definition: En la Edad Media, persona que iba de unos lugares a otros y recitaba, cantaba o bailaba o hacía juegos ante el pueblo o ante los nobles y los reyes.
-Synonyms: nómada, trovador, itinerante, juglaresa, ambulante
-Antonyms: noble, rey, aristócrata, plebeyo, campesino
+Synonyms: recitador, trovador, juglaresco, juglarín, bufón
+Antonyms: reyes, nobles, aristócratas, señores, monarcas
 
 Word: Trovador
 Definition: Poeta de la Edad Media que escribía y trovaba en lengua de oc.
-Synonyms: juglar, trovadoresco, poetalírico, poetamedieval, cantormedieval
-Antonyms: prosaico, moderno, contemporáneo, actual, contemporaneidad
+Synonyms: juglar, trovadoresco, poeta lírico, poeta provenzal, juglarescomodernista
+Antonyms: contemporáneo, actual, presente, nuevo
 
 Word: Romancero
 Definition: Persona que canta romances.
-Synonyms: trovero, cantor, juglar, trovador, rapsoda
-Antonyms: mudo, callado, silencioso, ciego, sordo
+Synonyms: cantante, trovador, juglar, poeta, vocalista
+Antonyms: callado, mudo, silencioso, desafinado, inarticulado
 
 Word: Verso
 Definition: Palabra o conjunto de palabras sujetas a medida y cadencia, o solo a cadencia. U. también en sentido colectivo, por contraposición a prosa.
-Synonyms: rítmico, poético, musical, melodioso, armonioso
-Antonyms: prosa, narrativa, noverso, prosaico, común
+Synonyms: rítmico, métrico, musical, poético, cadencioso
+Antonyms: prosaico, desarreglado, sin cadencia, irregular, desmedido
 
 Word: Prosa
 Definition: Forma de expresión habitual, oral o escrita, no sujeta a las reglas del verso.
-Synonyms: sin, desenfadada, coloquial, informal, espontánea
-Antonyms: rígida, estructurada, reglamentada, métrica, verso, 
+Synonyms: habla, discurso, narración, relato, disertaciónverso
+Antonyms: métrico, rítmico, poético, rimado
+
+Word: Novela Cortés
+Definition: La novela cortés es una narración larga escrita en la Edad Media que se extendió por Europa principalmente desde finales del siglo XI hasta el siglo XIV. El adjetivo 'cortés' se refiere al contexto medieval del entorno de la corte.
+Synonyms: cortesana, caballeresca, palaciega, aristocrática, refinada
+Antonyms: vulgaria, grosera, plebeya, tosca, burda
 
 Word: Soneto
 Definition: Composición poética que consta de catorce versos endecasílabos distribuidos en dos cuartetos y dos tercetos. En cada uno de los cuartetos riman, por regla general, el primer verso con el cuarto y el segundo con el tercero, y en ambos deben ser unas mismas las consonancias. En los tercetos pueden ir estas ordenadas de distintas maneras.
-Synonyms: catorceversosendecasílabos, rimaconsonante, poesíalírica, estructurafija, versoclásico
-Antonyms: composiciónmétrica, formapoética, estrofacaracterística, métricaestricta, poematradicional, poesíaclásica, creaciónpoética, expresiónartística, obraliteraria, versificaciónordenadaprosodialibre
+Synonyms: símbolos, imagen, representación, poema, versocontrapunto
+Antonyms: disonancia, discrepancia, inarmonía, desarmonía
 
 Word: Ascéticas
 Definition: Que trata de la vida de asceta, como guía y estímulo de su ejercicio.
-Synonyms: abstemias, austeras, rigurosas, espartanas, severas
-Antonyms: mundanas, hedonistas, indulgentes, libertinas, lascivas, 
+Synonyms: austera, rigurosa, severa, penitencial, abstinente
+Antonyms: indulgente, hedonista, libertina, licenciosa, relajada
 
 Word: Místicas
 Definition: Expresión literaria de la experiencia de lo divino.
-Synonyms: trascendental, espiritual, sagrado, celestial, religioso
-Antonyms: terrenal, profano, mundano, material, secular
+Synonyms: trascendental, espiritual, celestial, sagrado, religiosoprofano
+Antonyms: terrenal, mundano, material, secular
 
 Word: Odas
 Definition: T. litambién Composición lírica en estrofas de tono elevado, que generalmente ensalza algo o a alguien.
-Synonyms: encomio, loa, elogio, loor, alabanza
-Antonyms: crítica, censura, desprecio, denigración, reproche
+Synonyms: sublime, elevado, exaltado, elogioso, loa; bajo
+Antonyms: insignificante, despectivo, vilipendioso, denigrante
 
 Word: Égloga
 Definition: T. litambién Composición poética del género bucólico, en la que suelen dialogar pastores.
-Synonyms: pastoral, bucólica, poemapastoril, églogapoética, composiciónbucólica
-Antonyms: drama, tragedia, comedia, farsa, sátira
+Synonyms: bucólica, poema pastoril, idilio, eclogía, verso pastorilépica
+Antonyms: dramática, lírica, triste, seria
 
 Word: Elegía
 Definition: Composición lírica en que se lamenta la muerte de una persona o cualquier otro acontecimiento infortunado.
-Synonyms: lamento, queja, llanto, melancolía, tristeza
-Antonyms: celebración, alegría, júbilo, regocijo, felicidad
+Synonyms: tristeza, lamento, queja, pesar, melancolíacontento
+Antonyms: alegre, feliz, jubiloso, regocijado
 
 Word: Sainete
-Definition: Pieza dramática en un acto, de carácter popular y burlesco, que se representaba como intermedio o al final de una función.
-Synonyms: cachondeo, farsa, comedia, sátira, burla/tragedia
-Antonyms: drama, seriedad, solemnidad, gravedad
+Definition: Obra teatral en uno o más actos, frecuentemente cómica, de ambiente y personajes populares, que se representa como función independiente.
+Synonyms: gracioso, divertido, chistoso, humorístico, risueño
+Antonyms: serio, trágico, dramático, solemne, grave
 
 Word: Madrigal
 Definition: Métr. Poema breve, generalmente de tema amoroso, en que se combinan versos de siete y de once sílabas.
-Synonyms: amorío, lírico, romance, canción, composición
-Antonyms: prosaico, narrativo, épico, dramático, verso, 
+Synonyms: canción, composición lírica, poema amoroso, canción lírica, serenatatrágico
+Antonyms: dramático, triste, sombrío, oscuro, épico, narrativo, extenso, largo, prosaico
 
 Word: Epístola
-Definition: cultambién Carta o misiva que se escribe a alguien.
-Synonyms: carta, mensaje, comunicación, correspondencia, cartaepistolar
-Antonyms: amonestación, advertencia, reprimenda, censura, reproche
+Definition: T. litambién Composición poética en forma de carta, en que el autor se dirige o finge dirigirse a una persona real o imaginaria, y cuyo fin suele ser moralizante, instructivo o satírico.
+Synonyms: carta, misiva, comunicación, mensaje, epístola
+Antonyms: diferente, desigual, contrario, opuesto, antagónico
 
 Word: Peripecia
 Definition: En el drama o en cualquier otra composición análoga, cambio repentino de situación debido a un accidente imprevisto que altera el estado de las cosas.
-Synonyms: voltereta, giro, vuelco, cambio, transformación
-Antonyms: estabilidad, continuidad, inmutabilidad, constancia, persistencia
+Synonyms: sorpresiva, cambio inesperado, giro repentino, vicisitud imprevista, vuelco imprevistosintónico
+Antonyms: predecible, esperado, planeado, previsto
 
 Word: Humanismo
 Definition: Movimiento renacentista que propugna el retorno a la cultura grecolatina como medio de restaurar los valores humanos.
-Synonyms: clasicismo, renacimiento, culturahumanística, erasmismo, antropocentrismo
-Antonyms: barbarismo, materialismo, deshumanización, antivalores, indiferencia
+Synonyms: renacimiento, renacimientista, cultura clásica, humanidades, filosofía humanista
+Antonyms: modernidad, contemporaneidad, secularismo, materialismo, individualismo
 
 Word: Gesta
 Definition: Hecho o conjunto de hechos memorables.
-Synonyms: notable, memorable, destacado, relevante, importante
-Antonyms: olvidable, trivial, común, corriente, insustancial
+Synonyms: memorable, destacado, notable, recordado, famosoolvidable
+Antonyms: insignificante, común, rutinario, poco memorable
 
 Word: Bucólicas
-Definition: T. litambién Dicho de un género de poesía o de una composición poética, por lo común dialogada: Que trata de modo idealizado la vida pastoril.
-Synonyms: símiles, pastoriles, campestres, rústicas, idílicas
-Antonyms: églogas, agrestes, rurales, camperas, rusticas
+Definition: alimento.
+Synonyms: bucolismo, pastoril, campestre, rural, agreste
+Antonyms: despensa, nutrición, alimentación, manjar, comida
 
 Word: Exotismo
 Definition: Tendencia a incorporar formas y estilos artísticos de países alejados de la cultura occidental.
-Synonyms: 1, atractivo2, singularidad3, originalidad4, extrañeza5
-Antonyms: fascinación1, convencionalismo2, familiaridad3, tradicionalismo4, común5, occidentalismo
+Synonyms: fascinación, atracción, encanto, magnetismo, seducciónoccidentalismo
+Antonyms: familiaridad, convencionalismo, tradicionalismo, normalidad
 
 Word: Clero
 Definition: Conjunto de los clérigos.
-Synonyms: sacerdotes, eclesiásticos, religiosos, presbíteros, canónigos
-Antonyms: laicos, seglares, profanos, mundanos, noclérigos
+Synonyms: sacerdotes, eclesiásticos, ministros, religiosos, predicadoreslaicos
+Antonyms: seglares, profanos, no religiosos, laicizados
 
 Word: Antropocéntrico
 Definition: Fil. Perteneciente o relativo al antropocentrismo.
-Synonyms: biocéntrico, ecocéntrico, noantropocéntrico, noantropocéntrico, noantropocéntrico
-Antonyms: antropocentrista, humanocéntrico, hombre-centrado, hombre-en-el-centro, humanista, 
+Synonyms: antropocéntrico, humano, antropocéntrico, antropocéntrico, humanobiocéntrico
+Antonyms: ecocéntrico, naturalista, ecológico, no antropocéntrico
 
 Word: Caballería
 Definition: Arma constitutiva de un ejército, formada por cuerpos montados a caballo y posteriormente vehículos acorazados.
-Synonyms: caballería, jinetes, montados, lanceros, huestes
-Antonyms: infantería, pie, peatones, desmontados, civiles, 
+Synonyms: militaría, jinetes, hueste, tropa, caballerescoinfantería
+Antonyms: desmontados, pie, peatones, a pie
 
 Word: Elipsis
 Definition: Gram. Omisión de un segmento sintáctico cuyo contenido se puede recuperar por el contexto; poco ej., en Juan estudia biología y María (estudia) matemáticas.
-Synonyms: omisión, omisiónelíptica, omisiónporcontexto, supresión, elidir
-Antonyms: expansión, redundancia, ampliación, explicitación, desarrollo, 
+Synonyms: omisión, supresión, elusión, suspensión, elidir
+Antonyms: completo, inclusión, expresión, extenso, abarcar
 
 Word: Conector
 Definition: Ling. Unidad ling&#xFC;ística que vincula semánticamente grupos sintácticos, oraciones o partes de un texto.
-Synonyms: enlace, vínculo, unión, unificador, enlazador
-Antonyms: separador, disyuntor, disociador, desconector, desunidor
+Synonyms: unión, enlace, vínculo, enlace, enlace
+Antonyms: 
 
 Word: Deducción
 Definition: Fil. Método por el cual se procede lógicamente de lo universal a lo particular.
-Synonyms: inference, inferencia, conclusión, razonamiento, deducciónlógica
-Antonyms: inducción, inducción, generalización, abstracción, inferir
+Synonyms: inferencia, conclusión, razonamiento, conjetura, derivación
+Antonyms: generalidad, universalidad, globalidad, conjunto, totalidad
 
 Word: Tesis
 Definition: Conclusión, proposición que se mantiene con razonamientos.
-Synonyms: proposición, argumento, afirmación, aseveración, alegación
-Antonyms: refutación, contradicción, negación, desacuerdo, antítesis
+Synonyms: aceptación, argumentación, postulado, afirmación, alegaciónrechazo
+Antonyms: refutación, negación, contradicción, impugnación
 
 Word: Argumento
 Definition: Razonamiento para probar o demostrar una proposición, o para convencer de lo que se afirma o se niega.
-Synonyms: prueba, demostración, justificación, alegato, razonamiento
-Antonyms: refutación, contradicción, desacuerdo, desmentido, negación, 
+Synonyms: razonamiento, prueba, evidencia, justificación, demostración
+Antonyms: erróneo, falso, equivocado, inconsistente, infundado
 
 Word: Cohesión
 Definition: Acción y efecto de reunirse o adherirse las cosas entre sí o la materia de que están formadas.
-Synonyms: unión, adhesión, convergencia, consistencia, solidaridad
-Antonyms: separación, disociación, divergencia, desunión, fragmentación
+Synonyms: unión, adhesión, vinculación, integración, consistencia
+Antonyms: desunión, separación, dispersión, desintegración, incohesión
 
 Word: Coherencia
 Definition: Conexión, relación o unión de unas cosas con otras.
-Synonyms: conexión, relación, unión, correspondencia, consistencia
-Antonyms: discordia, desvinculación, separación, incoherencia, desarmonía
+Synonyms: conexión, relación, unión, correspondencia, congruencia
+Antonyms: desconexión, separación, desunión, incoherencia, discordancia
 
 Word: Dialecto
 Definition: Ling. Sistema ling&#xFC;ístico considerado con relación al grupo de los varios derivados de un tronco común.
-Synonyms: sistema, variante, habla, lengua, forma
-Antonyms: divergente, diferente, opuesto, contrapuesto, distinto
+Synonyms: variant, forma, estilo, modalidad, jergaclásico
+Antonyms: estándar, homogéneo, uniforme, común
 
 Word: Hispano hablante
 Definition: Que tiene el español como lengua materna o propia. Aplural a pers., u. también c. s.
-Synonyms: hablante, castellano, hispanoparlante, español, nativo
-Antonyms: inglés, francés, alemán, chino, italiano
+Synonyms: hablante, parlante, comunicador, locutor, orador
+Antonyms: angloparlante, francoparlante, lusoparlante, germanoparlante, italoparlante
 
 Word: Lenguas Romance
 Definition: Las lenguas romances son idiomas modernos que han evolucionado desde los tiempos de Roma, más específicamente del latín vulgar. El latín fue la lengua de los romanos durante los siglos III al VIII. Conforme los romanos viajaron y se asentaron en toda Europa, surgieron diversos dialectos del latín.10 oct 2021
-Synonyms: synonyms for "lenguas romance": idiomas romances, lenguas neolatinas, lenguas latinas, lenguas vulgares, lenguas derivadas del latínantonyms for "lenguas romance":lenguas germánicas
-Antonyms: lenguas eslavas, lenguas celtas, lenguas semíticas, lenguas afroasiáticas
+Synonyms: derivadas, neolatinas, románicas, lenguas latinas, idiomas romancesdiferentes
+Antonyms: variadas, distintas, divergentes, opuestas
 
 Word: Lírica Provenzal
 Definition: La poesía provenzal constituye el primer movimiento de lírica culta en la Europa occidental. Surge en el sur de Francia, en un lugar llamado Provenza, alrededor del 1100. Fue cultivada por los trovadores, que utilizan para expresar sus sentimientos una lengua romance, el provenzal o langue d´oc..
-Synonyms: lírica trovadoresca, poesía trovadoresca, poesía provenzal, trovadoresco, poesía cortesana prosa
-Antonyms: narrativa, épica, literatura, novela
+Synonyms: trovadoresco, poesía trovadoresca, lírica trovadoresca, poesía provenzal, poesía líricarustico
+Antonyms: tosco, primitivo, rudimentario, vulgar
 
 Word: Sánscrito
 Definition: Lengua del grupo indio, derivada del védico, que se habló en el norte de la India desde fecha antigua hasta el siglo III a. C. y que después continuó existiendo como lengua escrita de las religiones, la literatura y el pensamiento.
-Synonyms: sánscrito, clásico, védico, antiguo, sagrado
-Antonyms: moderno, evolucionado, contemporáneo, actual, vivo
+Synonyms: sánscrito, védico, antiguo, literario, clásico
+Antonyms: moderno, contemporáneo, actual, hablado, vivo
 
