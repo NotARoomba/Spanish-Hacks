@@ -1,11 +1,13 @@
 import { RAE } from "rae-api";
-import { ChatGPTUnofficialProxyAPI } from "chatgpt";
+import { ChatGPTAPI, ChatGPTUnofficialProxyAPI } from "chatgpt";
 import { load } from "ts-dotenv";
 import chalk from "chalk";
 import inquirer from "inquirer";
 import * as fs from "node:fs/promises";
 import google from "googlethis";
 import Choice from "inquirer/lib/objects/choice";
+const { promisify } = require('util');
+const exec = promisify(require('child_process').exec)
 const env = load({
   OPENAI: String,
 });
@@ -21,6 +23,7 @@ interface WordDefinition {
 
 const getWordDefinition = async (
   word: string,
+  doSynAnt: boolean
 ): Promise<WordDefinition | undefined> => {
   let listOfWords = await rae.searchWord(word);
   let listOfDefinitions: Array<String> = [];
@@ -94,36 +97,44 @@ const getWordDefinition = async (
             choices: listOfDefinitions.map((v) => new Choice(v, v)),
           })
         ).definition;
-  const api = new ChatGPTUnofficialProxyAPI({
-    accessToken: env.OPENAI,
-    apiReverseProxyUrl: "https://ai.fakeopen.com/api/conversation",
-  });
-  let sya;
-  try {
-    sya = (
-      await api.sendMessage(
-        `pretend you are an api, given the word ${word} and its definition "${definition}" give me 5 synonyms and 5 antonyms, in spanish, only send the synonyms first and then the antonyms seperated by commas in a single line with no other text or styling or semicolons, an example response would be "fine,good,well,happy,smiling,bad,horrible,disgusted,sick,horrid"`,
-      )
-    ).text;
-  } catch (err) {
-    console.log(
-      chalk.redBright("Error getting synonyms and antonyms for: ") +
-        chalk.white(word),
-    );
-    return;
+  if (doSynAnt) {
+    // const api = new ChatGPTUnofficialProxyAPI({
+    //   // apiKey: env.OPENAI
+    //   accessToken: env.OPENAI
+
+    // });
+    let sya;
+    try {
+      // sya = (
+      //   await api.sendMessage(
+      //     `pretend you are an api, given the word ${word} and its definition "${definition}" give me 5 synonyms and 5 antonyms, in spanish, only send the synonyms first and then the antonyms seperated by commas in a single line with no other text or styling or semicolons, an example response would be "fine,good,well,happy,smiling,bad,horrible,disgusted,sick,horrid"`,
+      //   )
+      // ).text;
+      sya = (await exec(`tgpt -w 'pretend you are an api, given the word ${word} and its definition "${definition}" give me 5 synonyms and 5 antonyms, in spanish, only send the synonyms first and then the antonyms seperated by commas in a single line with no other text or styling or semicolons, an example response would be "fine,good,well,happy,smiling,bad,horrible,disgusted,sick,horrid"'`)).stdout
+      console.log(sya)
+    } catch (err) {
+      console.log(
+        chalk.redBright("Error getting synonyms and antonyms for: ") +
+          chalk.white(word),
+      );
+      console.log(err);
+      return;
+    }
+    sya = sya
+      .toLocaleLowerCase()
+      .replace("synonyms:", "")
+      .replace("antonyms:", "")
+      .replace(/\./g, ",")
+      .replace("sinónimos:", "")
+      .replace("antónimos:", "")
+      .replace(/\, /g, ",")
+      .replace(/\n/g, ",");
+    const synonyms = sya.split(",").splice(0, 5);
+    const antonyms = sya.split(",").splice(5, 10);
+    return { word, definition, synonyms, antonyms };
   }
-  sya = sya
-    .toLocaleLowerCase()
-    .replace("synonyms:", "")
-    .replace("antonyms:", "")
-    .replace(/\./g, ",")
-    .replace("sinónimos:", "")
-    .replace("antónimos:", "")
-    .replace(/\, /g, ",")
-    .replace(/\n/g, "");
-  const synonyms = sya.split(",").splice(0, 5);
-  const antonyms = sya.split(",").splice(5, 10);
-  return { word, definition, synonyms, antonyms };
+  return {word, definition, synonyms: [], antonyms: []}
+  
 };
 
 (async () => {
@@ -187,7 +198,23 @@ const getWordDefinition = async (
             },
           })
         ).word;
-        const wordDefinition = await getWordDefinition(word);
+        const doSynAnt = (
+          await inquirer.prompt({
+            type: "rawlist",
+            name: "synAnt",
+            message: "Do you want to search for synonyms and antonyms?",
+            default: "Yes",
+            choices: [
+              {
+                name: "Yes",
+              },
+              {
+                name: "No",
+              },
+            ],
+          })
+        ).synAnt === 'Yes';
+        const wordDefinition = await getWordDefinition(word, doSynAnt);
         if (!wordDefinition) continue;
         console.log(
           chalk.cyanBright("Word: ") + chalk.white(wordDefinition.word),
@@ -228,6 +255,22 @@ const getWordDefinition = async (
         },
       })
     ).fileName;
+    const doSynAnt = (
+      await inquirer.prompt({
+        type: "rawlist",
+        name: "synAnt",
+        message: "Do you want to search for synonyms and antonyms?",
+        default: "Yes",
+        choices: [
+          {
+            name: "Yes",
+          },
+          {
+            name: "No",
+          },
+        ],
+      })
+    ).synAnt === 'Yes';
     let file = null;
     try {
       file = await fs.readFile(filePath, { encoding: "utf-8" });
@@ -259,7 +302,7 @@ const getWordDefinition = async (
       console.log(
         chalk.green("Getting definition for word: ") + chalk.white(word),
       );
-      const wordDefinition = await getWordDefinition(word);
+      const wordDefinition = await getWordDefinition(word, doSynAnt);
       if (!wordDefinition) {
         console.log(
           chalk.redBright("Error getting word definition for: ") +
