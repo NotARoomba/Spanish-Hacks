@@ -1,0 +1,155 @@
+Word: Barroco
+Definition: Dicho de un estilo arquitectónico o de las artes plásticas: Que se desarrolló en Europa e Iberoamérica durante los siglos XVII y XVIII, opuesto al clasicismo y caracterizado por la complejidad y el dinamismo de las formas, la riqueza de la ornamentación y el efectismo. U. también c. s. m.
+Synonyms: ornamentado, recargado, recargado, recargado, recargado
+Antonyms: sencillo, austero, simple, básico, minimalista, 
+
+Word: Neoclasicismo
+Definition: Movimiento literario y artístico dominante en Europa desde finales del siglo XVII y a lo largo del siglo XVIII, que aspira a restaurar el gusto y las normas del clasicismo grecorromano.
+Synonyms: clasicismo, academicismo, formalismo, tradicionalismo, conservadurismo  
+Antonyms: romanticismo, barroco, vanguardia, modernismo, surrealismo, 
+
+Word: Romanticismo
+Definition: Movimiento cultural que se desarrolla en Europa desde fines del siglo XVIII y durante la primera mitad del XIX y que, en oposición al Neoclasicismo, exalta la libertad creativa, la fantasía y los sentimientos.
+Synonyms: libertad creativa, fantasía, sentimientos, emocionalidad, subjetividad
+Antonyms: neoclasicismo, racionalidad, orden, moderación, sobriedad, 
+
+Word: Realismo
+Definition: Movimiento, principalmente literario, surgido en Francia a mediados del siglo XIX, que se caracteriza por la recreación fiel de la realidad observada.
+Synonyms: naturalismo, verosimilitud, objetividad, detalle, veracidad  
+Antonyms: idealismo, fantasía, subjetividad, exageración, irrealidad, 
+
+Word: Ilustración
+Definition: Movimiento filosófico y cultural del siglo XVIII que acentúa el predominio de la razón humana y la creencia en el progreso.
+Synonyms: iluminismo, racionalismo, humanismo, progreso, secularismo
+Antonyms: oscurecimiento, retroceso, regresión, dogmatismo, superstición, 
+
+Word: Manierismo
+Definition: Estilo artístico y literario del Renacimiento tardío, caracterizado por su refinamiento y artificiosidad.
+Synonyms: refinamiento, artificiosidad, afectación, preciosismo, barroquismo
+Antonyms: naturalidad, sencillez, espontaneidad, simplicidad, autenticidad, 
+
+Word: Peyorativo
+Definition: Dicho de una palabra o de un modo de expresión: Que indica una idea desfavorable.
+Synonyms: ofensivo, insultante, agraviante, despectivo, denigrante
+Antonyms: afable, elogioso, alentador, elocuente, respetuoso, 
+
+Word: Conceptismo
+Definition: Estilo literario del Barroco español caracterizado por su concisión y el empleo de conceptos o agudezas.
+Synonyms: concisión, agudeza, sutileza, ingenio, perspicacia
+Antonyms: prolijidad, redundancia, difusión, prolixidad, amaneramiento, 
+
+Word: Culteranismo
+Definition: Estilo literario del Barroco español caracterizado por la abundancia de cultismos y neologismos, así como por un lenguaje metafórico y una sintaxis compleja.
+Synonyms: barroquismo, gongorismo, culteranía, preciosismo, rebuscamiento
+Antonyms: sencillo, claro, directo, llano, simple, 
+
+Word: Intemperancia
+Definition: Falta de templanza.
+Synonyms: exceso, descontrol, desmesura, exageración, desenfreno
+Antonyms: moderación, templanza, mesura, autocontrol, equilibrio, 
+
+Word: Anafórico
+Definition: Ling. y Retambién Perteneciente o relativo a la anáfora.
+Synonyms: pronominal, correlativo, regresivo, retroactivo, repetitivo
+Antonyms: ajeno, distante, desvinculado, irrelevante, no pertinente
+
+Word: Subjetividad
+Definition: Cualidad de subjetivo.
+Synonyms: personalidad, individualidad, perspectiva, parcialidad, particularidad
+Antonyms: objetividad, imparcialidad, universalidad, neutralidad, exterioridad, 
+
+Word: Elisión
+Definition: Ling. Acción y efecto de elidir.
+Synonyms: supresión, omisión, suprimir, omitir, excluyendo
+Antonyms: inclusión, adición, incorporación, retención, retener, 
+
+Word: Debacle
+Definition: desastre. U. también en sent. fig.
+Synonyms: fracaso, desastre, cataclismo, calamidad, fiasco
+Antonyms: exitoso, triunfante, victorioso, logro, éxito, 
+
+Word: Fidedigno
+Definition: Digno de fe y crédito.
+Synonyms: veraz, confiable, seguro, creíble, confiado
+Antonyms: falso, dudoso, engañoso, falaz, inconfiable, 
+
+Word: Escepticismo
+Definition: Desconfianza o duda de la verdad o eficacia de algo.
+Synonyms: duda, incredulidad, suspicacia, recelo, desconfianza
+Antonyms: certeza, confianza, seguridad, convicción, fe,
+
+Word: Austeridad
+Definition: Cualidad de austero.
+Synonyms: economía, frugalidad, ahorro, sobriedad, simplicidad
+Antonyms: opulencia, derroche, lujo, exceso, ostentación, 
+
+Word: Costumbrismo
+Definition: En las obras literarias y pictóricas, atención que se presta al retrato de las costumbres típicas de un país o región.
+Synonyms: folklore, tradición, pintoresco, localismo, regionalismo  
+Antonyms: extravagancia, modernidad, innovación, atipicidad, originalidad, 
+
+Word: Lingüística
+Definition: Ciencia del lenguaje.
+Synonyms: idioma, gramática, filología, fonética, semántica
+Antonyms: ignorancia, silencio, incomprensión, mudez, inarticulación, 
+
+Word: Solecismos
+Definition: Gram. Falta de sintaxis; error cometido contra las normas de algún idioma.
+Synonyms: equivocación, error, inexactitud, desacierto, impropiedad
+Antonyms: corrección, exactitud, precisión, acierto, propiedad, 
+
+Word: Variaciones
+Definition: Acción y efecto de variar.
+Synonyms: cambio, modificación, alteración, transformación, mutación
+Antonyms: constante, invariabilidad, uniformidad, estabilidad, inmutabilidad, 
+
+Word: Catafórico
+Definition: Ling. Perteneciente o relativo a la catáfora.
+Synonyms: referencial, indicativo, predictivo, anticipatorio, prospectivo
+Antonyms: reparador, correctivo, retrospectivo, regresivo, retroactivo, 
+
+Word: Elipsis
+Definition: Gram. Omisión de un segmento sintáctico cuyo contenido se puede recuperar por el contexto; poco ej., en Juan estudia biología y María (estudia) matemáticas.
+Synonyms: omisión, supresión, omisión sintáctica, elidir, suprimir
+Antonyms: inclusiones, desarrollo, ampliación, expansión, extensión
+
+Word: Metáfora
+Definition: Retambién Traslación del sentido recto de una voz a otro figurado, en virtud de una comparación tácita, como en las perlas del rocío, la primavera de la vida o refrenar las pasiones.
+Synonyms: comparación, alegoría, símil, imagen, figura; realidad
+Antonyms: hecho, verdad, concreción, literalidad, 
+
+Word: Hipérbaton
+Definition: Retambién Alteración del orden que las palabras tienen habitualmente en el discurso, como en por mi mano plantado tengo un huerto.
+Synonyms: inversión, anástrofe, transposición, desplazamiento, cambio
+Antonyms: orden, disposición, estructura, secuencia, organización, 
+
+Word: Hipérbole
+Definition: Retambién Figura que consiste en aumentar o disminuir exageradamente aquello de que se trata. Era u. t. c. m.
+Synonyms: exageración, exceso, amplificación, sobreactuación, agigantamiento
+Antonyms: disminución, atenuación, moderación, minimización, restricción, 
+
+Word: Polisíndeton
+Definition: Retambién Empleo repetido de las conjunciones en un texto para dar fuerza o energía a la expresión de aquello que se expresa, como en y avanza y levanta espumas, y salta y confía.
+Synonyms: repetición, acumulación, redundancia, profusión, exceso
+Antonyms: simplicidad, austeridad, concisión, economía, parquedad, , 
+
+Word: Asíndeton
+Definition: Retambién Omisión de las conjunciones en un texto para dar viveza o energía a aquello que se expresa, como en llegué, vi, vencí.
+Synonyms: rápido, veloz, pronto, ágil, ligero
+Antonyms: lento, tardo, tardío, pausado, despacio, 
+
+Word: Pleonasmo
+Definition: Retambién Empleo en la oración de uno o más vocablos innecesarios para que tenga sentido completo, pero con los cuales se añade expresividad a lo dicho, como en en fuga irrevocable huye la hora.
+Synonyms: redundancia, redundante, redundar, repetición, superfluidad
+Antonyms: necesario, conciso, preciso, puntual, escueto, 
+
+Word: Eufemismo
+Definition: Manifestación suave o decorosa de ideas cuya recta y franca expresión sería dura o malsonante.
+Synonyms: atenuación, circunloquio, suavización, disimulo, rodeo
+Antonyms: exageración, brutalidad, descaro, sinceridad, grosería, 
+
+Word: Disfemismo
+Definition: Modo de decir que consiste en nombrar una realidad con una expresión peyorativa o con intención de rebajarla de categoría, en oposición a eufemismo.
+Synonyms: vulgarismo, expresión despectiva, término despectivo, palabra ofensiva, término peyorativo  
+Antonyms: eufemismo, expresión suavizada, palabra atenuada, término decoroso, término suavizado, 
+

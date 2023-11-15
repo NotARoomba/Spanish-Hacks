@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "nodemon ."
+    "start": "tsx index.ts"
   },
   "dependencies": {
     "chalk": "^5.3.0",
