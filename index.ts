@@ -8,9 +8,9 @@ import google from "googlethis";
 import Choice from "inquirer/lib/objects/choice";
 const { promisify } = require('util');
 const exec = promisify(require('child_process').exec)
-const env = load({
-  OPENAI: String,
-});
+// const env = load({
+//   OPENAI?: String,
+// });
 
 const rae = new RAE();
 
